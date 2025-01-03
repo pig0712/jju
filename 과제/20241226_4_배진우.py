@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 import os
 
-os.environ['OPENAI_API_KEY'] = "my_key"
+# os.environ['OPENAI_API_KEY'] = ""
 
 
 template = "{country1}과 {country2}의 수도는 각각 어디인가요? {country3}의 수도는 어디인가요?"
